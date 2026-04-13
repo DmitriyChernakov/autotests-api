@@ -5,7 +5,7 @@ from httpx import Response
 from clients.api_client import APIClient
 
 
-class GetExercisesRequestDict(TypedDict):
+class GetExercisesQueryDict(TypedDict):
     courseId: str
 
 
@@ -19,7 +19,7 @@ class CreateExerciseRequestDict(TypedDict):
     estimatedTime: str
 
 
-class UpdateExerciseDict(TypedDict):
+class UpdateExerciseRequestDict(TypedDict):
     title: str
     maxScore: str
     minScore: str
@@ -33,7 +33,7 @@ class ExercisesClient(APIClient):
     Клиент для работы с /api/v1/exercises
     """
 
-    def get_exercises_api(self, query: GetExercisesRequestDict) -> Response:
+    def get_exercises_api(self, query: GetExercisesQueryDict) -> Response:
         """
         Метод получения списка упражнений.
 
@@ -60,7 +60,7 @@ class ExercisesClient(APIClient):
         """
         return self.post("/api/v1/exercises", json=request)
 
-    def update_exercise_api(self, exercise_id: str, request) -> Response:
+    def update_exercise_api(self, exercise_id: str, request: UpdateExerciseRequestDict) -> Response:
         """
         Метод обновления упражнения.
 
