@@ -36,7 +36,10 @@ def assert_user(actual: UserSchema, expected: UserSchema):
     assert_equal(actual.middle_name, expected.middle_name, "middle_name")
 
 
-def assert_get_user_response(get_user_response: GetUserResponseSchema, create_user_response: CreateUserResponseSchema):
+def assert_get_user_response(
+        get_user_response: GetUserResponseSchema,
+        create_user_response: CreateUserResponseSchema
+):
     """
     Проверяет, что данные пользователя при создании и запросе совпадают.
 
