@@ -50,9 +50,9 @@ def assert_length(actual: Sized, expected: Sized, name: str):
     """
     Проверяет, что длины двух объектов совпадают.
 
-    :param name: Название проверяемого объекта.
     :param actual: Фактический объект.
     :param expected: Ожидаемый объект.
+    :param name: Название проверяемого объекта.
     :raises AssertionError: Если длины не совпадают.
     """
     assert len(actual) == len(expected), (

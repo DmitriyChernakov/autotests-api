@@ -2,7 +2,7 @@ from httpx import Response
 
 from clients.api_client import APIClient
 from clients.courses.courses_schema import (
-    GetCoursesRequestSchema,
+    GetCoursesQuerySchema,
     UpdateCourseRequestSchema,
     CreateCourseRequestSchema,
     CreateCourseResponseSchema
@@ -15,7 +15,7 @@ class CoursesClient(APIClient):
     Клиент для работы с /api/v1/courses
     """
 
-    def get_courses_api(self, query: GetCoursesRequestSchema) -> Response:
+    def get_courses_api(self, query: GetCoursesQuerySchema) -> Response:
         """
         Метод получения списка курсов.
 
