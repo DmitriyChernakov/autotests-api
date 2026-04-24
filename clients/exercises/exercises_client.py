@@ -37,7 +37,7 @@ class ExercisesClient(APIClient):
         :param exercise_id: Идентификатор упражнения.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.get(f"/api/v1/exercises{exercise_id}")
+        return self.get(f"/api/v1/exercises/{exercise_id}")
 
     def create_exercise_api(self, request: CreateExerciseRequestSchema) -> Response:
         """
@@ -60,7 +60,7 @@ class ExercisesClient(APIClient):
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.patch(
-            f"/api/v1/exercises{exercise_id}",
+            f"/api/v1/exercises/{exercise_id}",
             json=request.model_dump(by_alias=True)
         )
 
@@ -71,7 +71,7 @@ class ExercisesClient(APIClient):
         :param exercise_id: Идентификатор курса.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.delete(f"/api/v1/exercises{exercise_id}")
+        return self.delete(f"/api/v1/exercises/{exercise_id}")
 
     def get_exercises(self, query: GetExercisesQuerySchema) -> GetExercisesResponseSchema:
         """
