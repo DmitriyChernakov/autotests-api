@@ -10,7 +10,7 @@ ENV/*
 *.db
 
 # Configuration files
-*.env
+#*.env
 *.conf
 
 # Python cache
