@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/2d52dbe6-a9a1-440a-82de-e2b01bca8b40' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEzVDA5OjIwOjA3LjY5MDQ3MyIsInVzZXJfaWQiOiIzOTMyZmFhYS1mM2I2LTRlOTItODYwMC1lMWQ1YmJkNDgxNzkifQ.M0TzYdonkw3fCo-iuSmlgebcTkGyooVfdMel_MWHE2s' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Help then establish rest.","maxScore":80,"minScore":22,"orderIndex":1,"description":"Really response offer myself. Her offer place put bit. Might myself test.\nSubject study enjoy across local fine. Lot sit new amount check understand audience. End address Mr painting hair operation.","estimatedTime":"10 weeks"}'

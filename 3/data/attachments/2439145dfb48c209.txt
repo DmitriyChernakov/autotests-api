@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEzVDA5OjIwOjA3LjM4MzA1NiIsInVzZXJfaWQiOiJlMmQzOTkxNS1mYjI0LTQyNDctOTYyYi1kNjdlNGU0YTg0M2QifQ.SfL05mrk-gzu8IGp9epVoukKpvsSl0Tj7D3YeZ959rY' \
+  -H 'content-length: 305' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Do feel challenge.","courseId":"96ce5f1c-79bd-4ad7-93f0-a0ecfc797cd7","maxScore":95,"minScore":15,"orderIndex":1,"description":"Tax blood indicate turn range poor easy. Tend keep speak knowledge trial perform.\nEye write seem. Industry we almost. Doctor stuff accept.","estimatedTime":"8 weeks"}'

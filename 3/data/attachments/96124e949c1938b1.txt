@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEzVDA5OjIwOjA5LjA2Nzg1NiIsInVzZXJfaWQiOiIwNTEwZDQxNy1hZjE5LTRjYjUtOTY3Yi05NmZmMjVmNjI0ZTcifQ.-G56RA2UEOAIIbat_nofRR3-q0NiTlRp3chiFTndk-c' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Hard long material.","maxScore":81,"minScore":24,"description":"High along lawyer. Level administration eat soon computer everybody effect including. Through clear program face bring.\nBeautiful fear at forget system investment decision.","estimatedTime":"8 weeks","previewFileId":"62840217-0a26-4e51-8daf-c720780369d4","createdByUserId":"0510d417-af19-4cb5-967b-96ff25f624e7"}'

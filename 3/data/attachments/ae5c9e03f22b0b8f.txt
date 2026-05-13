@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEzVDA5OjIwOjA2LjQwNTk2MCIsInVzZXJfaWQiOiJkNmRmMGQ5ZC0zZDU0LTQxMGEtYjBhYy1hZTc0OTJmMDJhMmQifQ.uKaEJjI0a58jjhs3HMvQkv_JkYTZVZOL9sLa8Ef87pk' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Test participant similar.","maxScore":57,"minScore":2,"description":"Project in response least other receive style. Husband laugh cut wind look.","estimatedTime":"10 weeks","previewFileId":"c6a8bf38-8837-4f70-a98c-460cc023eda9","createdByUserId":"d6df0d9d-3d54-410a-b0ac-ae7492f02a2d"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEzVDA5OjIwOjA5LjA2Nzg1NiIsInVzZXJfaWQiOiIwNTEwZDQxNy1hZjE5LTRjYjUtOTY3Yi05NmZmMjVmNjI0ZTcifQ.-G56RA2UEOAIIbat_nofRR3-q0NiTlRp3chiFTndk-c' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Actually radio inside.","courseId":"2ffb1435-5ae3-4641-9948-2ef9c0e81c94","maxScore":94,"minScore":10,"orderIndex":1,"description":"See summer power can discussion medical significant. Learn news show them finally drop record modern.\nFar go fight happy front. My benefit lose front country apply.","estimatedTime":"8 weeks"}'

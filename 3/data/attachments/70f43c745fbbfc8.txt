@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEzVDA5OjIwOjA4LjQxNjU4NSIsInVzZXJfaWQiOiI1NDRmMDM3OS1hZDVjLTQwNTItYTQ3My01MjhjNGE2YjE4MzQifQ.y2RkiHXJm_FdAhFoIzGAg0eaT4vx7vlPSNZQcJn4lV8' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -f '{"title":"The morning face process subject use level rich.","maxScore":80,"minScore":12,"description":"Else what ability authority blue. Despite memory nation. Go as Mrs seat important.\nLead allow cause exist know international fear market. Ok left old total opportunity.","estimatedTime":"10 weeks","previewFileId":"4c18c164-79e9-4689-a87a-88ae9755b017","createdByUserId":"544f0379-ad5c-4052-a473-528c4a6b1834"}'

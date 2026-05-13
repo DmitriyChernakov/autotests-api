@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEzVDA5OjIwOjA3LjY5MDQ3MyIsInVzZXJfaWQiOiIzOTMyZmFhYS1mM2I2LTRlOTItODYwMC1lMWQ1YmJkNDgxNzkifQ.M0TzYdonkw3fCo-iuSmlgebcTkGyooVfdMel_MWHE2s' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Kitchen process at reveal.","maxScore":81,"minScore":7,"description":"Drug table movie television bring. State question on political interesting.\nCenter response none bag six walk. Place responsibility between front your.","estimatedTime":"10 weeks","previewFileId":"6b3c527b-98a1-49cb-9f29-c9b578265988","createdByUserId":"3932faaa-f3b6-4e92-8600-e1d5bbd48179"}'
