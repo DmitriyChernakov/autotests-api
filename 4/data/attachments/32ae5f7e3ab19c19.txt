@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEzVDA5OjU1OjMzLjQyNjc1OSIsInVzZXJfaWQiOiI4OTU2MjZjYi1mNTdmLTQ3NTItODg2OS1hMDEyNTc1MDZmZGEifQ.71d-TBP0Kh6Och02qJEBnhnQvIOYG81YHfCUU4O5Yrc' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Under simple into bring.","maxScore":86,"minScore":18,"description":"Myself among rich. Enter we school suffer head large position.\nReach ever entire data growth. Always three less his movement.\nNews girl eat quality charge. Prepare eat brother woman.","estimatedTime":"2 weeks","previewFileId":"fb82ef01-174d-4b22-ab1b-5b3b7114eaf1","createdByUserId":"895626cb-f57f-4752-8869-a01257506fda"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/946dfead-e2de-4f24-a473-3525042e819b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEzVDA5OjU1OjMxLjk1MDc2NiIsInVzZXJfaWQiOiI5MDQzMDViYi1mMzc2LTQ2ODAtYmVhMy03N2JiNDE4ZWVkMDUifQ.D0vj98oeqChrDIxyBAikdyfjBRKjJEnBo9A_Mfa8a6g' \
+  -H 'content-length: 211' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Mrs ask admit card have affect.","maxScore":50,"minScore":8,"description":"Care thank near prove set. Election realize real minute air old already and. Out wear mind design.","estimatedTime":"3 weeks"}'

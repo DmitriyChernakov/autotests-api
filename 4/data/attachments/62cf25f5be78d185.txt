@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEzVDA5OjU1OjM0LjU5MTMxNSIsInVzZXJfaWQiOiI3ZGNlM2IxMy1lY2E5LTQ5MmYtYTQ1Ni01ZDhmMTU1NTQxOTIifQ.D8326hv2nAib9CfeOks1g0xo471waGHvROX4iHeMaFI' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Stuff section language sense do need when.","maxScore":83,"minScore":8,"description":"Animal form according rather owner surface group just. Ready past within couple. Throw over front little experience heavy focus character.","estimatedTime":"1 weeks","previewFileId":"cbdebdee-511a-40f8-9bf9-bf73f3c94435","createdByUserId":"7dce3b13-eca9-492f-a456-5d8f15554192"}'

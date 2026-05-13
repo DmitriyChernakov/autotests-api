@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTEzVDA5OjU1OjM2LjM5NDczMSIsInVzZXJfaWQiOiI4ZDE5NmIwZi1hOWJmLTRmZDQtODE1ZC05ZTk3ZTYwNTJiZjkifQ.O2k7vJZ8IoEdCF_9ipjmu0KZEgA2-FM0kpdTs2JBxY8' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Stay prove accept third.","maxScore":89,"minScore":8,"description":"Clear general lawyer hot. Audience huge ever remember player or move thousand. Stand that can their would.","estimatedTime":"8 weeks","previewFileId":"e1d6e349-bfbc-495c-a71a-7cda56980157","createdByUserId":"8d196b0f-a9bf-4fd4-815d-9e97e6052bf9"}'
