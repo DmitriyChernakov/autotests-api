@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE2VDExOjAzOjM0LjgzOTY1MyIsInVzZXJfaWQiOiI3ZDE2ZmU4MS02ODhjLTQ2MWEtOGNhNC05NzA5OGVkYmY2MjUifQ.sJLj5K8hSityMkGFUi2px0Hk-ztLp-El2vyH_RKNSSs' \
+  -H 'content-length: 281' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Born send writer trade onto way good.","courseId":"b430bd17-cb5d-4d7f-8d8b-43417b77980d","maxScore":72,"minScore":1,"orderIndex":1,"description":"Which thousand relationship present team strategy. Material card represent answer paper our wait.","estimatedTime":"9 weeks"}'

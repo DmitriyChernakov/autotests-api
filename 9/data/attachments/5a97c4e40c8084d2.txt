@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE2VDExOjAzOjM0LjI2MDQ2NSIsInVzZXJfaWQiOiJiZmVmMGQ0OC02Yzg2LTQ3MGItYjEyNS1kYzFkNDI0MTc2YTEifQ.URg7JGOCOLi7hEiBZUaYxXhodEK4HkZSTQIGGRDlQMY' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Rock former indeed realize her.","maxScore":98,"minScore":12,"description":"Sell whom nation name election skill space several. Upon father special thank especially too out let.\nSouthern rich ahead part this skin player. Tax pretty surface window.","estimatedTime":"3 weeks","previewFileId":"ac3020fe-c293-43e0-a997-95c8578f5604","createdByUserId":"bfef0d48-6c86-470b-b125-dc1d424176a1"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/8afa4cf9-00be-4107-9e8c-642a3f0928e0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE2VDExOjAzOjMyLjc4MDI3NCIsInVzZXJfaWQiOiIyOWFhZjc3OC01NTM5LTQwMjYtYWJjYi0zNGVjM2ZmMzZmYjcifQ.JDwIRwkPcxdyVfdNagC49Tjimgrqwtf0_gNqBk38Sig' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Laugh difficult beautiful opportunity lawyer always.","maxScore":95,"minScore":3,"description":"Beat evening able skin finish heavy.\nMoment must pay clearly. Left rich base.\nSuch particular pretty college. Matter though appear range. Born us cell thus concern.","estimatedTime":"4 weeks"}'

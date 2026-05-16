@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE2VDExOjAzOjM3LjI2NTg0NSIsInVzZXJfaWQiOiJmOTc3YjJmYy0wMWFiLTQ5YjAtOWRkMi0wYTliY2JjYjY5MmQifQ.gyslR8cjbO6-EKGhfDfMleOwS_Wv3IuqHKZ1iE0E1mA' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Every billion front worry.","maxScore":93,"minScore":8,"description":"Series state staff pretty arm. Own easy sport program list.\nSuccess career represent fish decision evening. Today keep hard war. Strategy natural everything fight of conference.","estimatedTime":"1 weeks","previewFileId":"8b70e94e-72fd-4108-8d16-6dbe7358c36e","createdByUserId":"f977b2fc-01ab-49b0-9dd2-0a9bcbcb692d"}'

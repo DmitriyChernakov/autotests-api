@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE2VDExOjAzOjM0LjgzOTY1MyIsInVzZXJfaWQiOiI3ZDE2ZmU4MS02ODhjLTQ2MWEtOGNhNC05NzA5OGVkYmY2MjUifQ.sJLj5K8hSityMkGFUi2px0Hk-ztLp-El2vyH_RKNSSs' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Six sure project civil.","maxScore":60,"minScore":15,"description":"Activity own perform success imagine never establish. Side century born attention. American nor these place.","estimatedTime":"5 weeks","previewFileId":"c3b8334a-f5ea-43e2-932f-d7b58c633cbd","createdByUserId":"7d16fe81-688c-461a-8ca4-97098edbf625"}'

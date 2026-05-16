@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE2VDExOjAzOjM1LjQyNDk4NyIsInVzZXJfaWQiOiIyODhlMWQyZi1mZjRkLTRmMDQtYTM5MC1mNDNkYWZjODg3ZWUifQ.XfcmvIRNJ3g1IK8YmT-48zgrOlXWaguW4zhtIy1kx-A' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Method hot toward first production choice debate.","maxScore":79,"minScore":7,"description":"About foot record those himself per. Grow law economic black your. Common itself themselves to. Rise her wide we instead.","estimatedTime":"6 weeks","previewFileId":"62ba8269-d17d-4a82-8db3-467777ba1e03","createdByUserId":"288e1d2f-ff4d-4f04-a390-f43dafc887ee"}'

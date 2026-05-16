@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE2VDExOjAzOjMyLjc4MDI3NCIsInVzZXJfaWQiOiIyOWFhZjc3OC01NTM5LTQwMjYtYWJjYi0zNGVjM2ZmMzZmYjcifQ.JDwIRwkPcxdyVfdNagC49Tjimgrqwtf0_gNqBk38Sig' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Everything page general.","maxScore":57,"minScore":5,"description":"Choose decision fish. Part pick between.\nCentury movie who simply travel. Black religious enough red.","estimatedTime":"6 weeks","previewFileId":"51950673-8b04-41c5-b257-b12b16a00d45","createdByUserId":"29aaf778-5539-4026-abcb-34ec3ff36fb7"}'

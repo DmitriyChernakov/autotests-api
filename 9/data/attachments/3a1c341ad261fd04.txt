@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE2VDExOjAzOjM2LjYzNTIyNyIsInVzZXJfaWQiOiJhNzU3MmM2My04ODg2LTQzNDYtOWM3Ni05Nzk0NTUwN2ZkMWMifQ.Nq1RiR-804Y-dnaSQ1K3FQp7xqs0fAggbgY3J3kIRjA' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Interview become hair certain generation just building.","maxScore":53,"minScore":13,"description":"Watch open event compare reveal business. Fear pretty sure still understand account.","estimatedTime":"3 weeks","previewFileId":"eaa1ab77-d2b0-47b3-8266-691407dd8b78","createdByUserId":"a7572c63-8886-4346-9c76-97945507fd1c"}'
