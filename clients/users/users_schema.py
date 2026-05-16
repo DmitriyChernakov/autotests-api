@@ -18,7 +18,7 @@ class CreateUserRequestSchema(BaseModel):
     """
     Описание структуры запроса на создание пользователя.
     """
-    model_config = ConfigDict(validate_by_name=True, validate_by_alias=True)
+    model_config = ConfigDict(populate_by_name=True)
 
     email: EmailStr = Field(default_factory=fake.email)
     password: str = Field(default_factory=fake.password)
@@ -38,7 +38,7 @@ class UpdateUserRequestSchema(BaseModel):
     """
     Описание структуры запроса на обновление пользователя.
     """
-    model_config = ConfigDict(validate_by_name=True, validate_by_alias=True)
+    model_config = ConfigDict(populate_by_name=True)
 
     email: EmailStr | None = Field(default_factory=fake.email)
     last_name: str | None = Field(alias="lastName", default_factory=fake.last_name)

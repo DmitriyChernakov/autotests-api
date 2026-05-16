@@ -21,7 +21,7 @@ class GetExercisesQuerySchema(BaseModel):
     """
     Описание структуры запроса на получение списка упражнений.
     """
-    model_config = ConfigDict(validate_by_name=True, validate_by_alias=True)
+    model_config = ConfigDict(populate_by_name=True)
 
     course_id: str = Field(alias="courseId")
 
@@ -44,7 +44,7 @@ class CreateExerciseRequestSchema(BaseModel):
     """
     Описание структуры запроса на создание упражнения.
     """
-    model_config = ConfigDict(validate_by_name=True, validate_by_alias=True)
+    model_config = ConfigDict(populate_by_name=True)
 
     title: str = Field(default_factory=fake.sentence)
     course_id: str = Field(alias="courseId", default_factory=fake.uuid4)
@@ -66,7 +66,7 @@ class UpdateExerciseRequestSchema(BaseModel):
     """
     Описание структуры запроса на обновление упражнения.
     """
-    model_config = ConfigDict(validate_by_name=True, validate_by_alias=True)
+    model_config = ConfigDict(populate_by_name=True)
 
     title: str | None = Field(default_factory=fake.sentence)
     max_score: int | None = Field(alias="maxScore", default_factory=fake.max_score)
