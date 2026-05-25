@@ -1,0 +1,27 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises?courseId=9ec6900f-19dd-44c2-a596-dbf5c30a3d3d
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=9ec6900f-19dd-44c2-a596-dbf5c30a3d3d
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:129 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:74 Check that length of 'exercises' equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:52 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'id' equals to bddb42ef-a177-40b6-8806-2079048133b7
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'title' equals to Station above loss.
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'course_id' equals to 9ec6900f-19dd-44c2-a596-dbf5c30a3d3d
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'max_score' equals to 70
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'min_score' equals to 20
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'order_index' equals to 1
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'description' equals to Late arm ground surface. Wonder site participant.
+Form action hot mother actually book. Guess his own image rule.
+Attorney hold how job discuss win. Control of then simply door around boy face.
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'estimated_time' equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

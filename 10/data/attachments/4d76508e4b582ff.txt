@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI1VDA5OjI1OjM4LjA1MTAxMiIsInVzZXJfaWQiOiI4NDFjYTY3Zi0xZmJjLTRjZjQtODBiYS04MmIwY2FkMTcxYTgifQ.2Wpnj0E-UvTsSKVMnOYwwJX9QMEkQiysroBydR4mRwY' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -f '{"title":"According suffer other window in budget enter.","maxScore":79,"minScore":2,"description":"Look lawyer surface do want next.\nWhich fact create region public already will your.","estimatedTime":"4 weeks","previewFileId":"141d0409-c6dc-4309-8af5-772d4c4af24c","createdByUserId":"841ca67f-1fbc-4cf4-80ba-82b0cad171a8"}'

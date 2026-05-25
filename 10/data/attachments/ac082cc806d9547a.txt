@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI1VDA5OjI1OjM0LjY4NTE1NyIsInVzZXJfaWQiOiJlMTM3NWU4NC0zNDRiLTQ1MzUtYjk2Ny0zN2NlZDA0Yjk4NzUifQ.f8IlzU2gsMDGiUuxZ4Z3ah8QWQkzgbXHXH1EDYbyN0M' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Year road new into.","maxScore":64,"minScore":19,"description":"Quality star turn including sort beat operation begin. Job trial and probably build box dinner. Beautiful enter yard perform condition run.","estimatedTime":"9 weeks","previewFileId":"1c4e2e69-25cc-4e85-90d8-01bc0a7b319d","createdByUserId":"e1375e84-344b-4535-b967-37ced04b9875"}'

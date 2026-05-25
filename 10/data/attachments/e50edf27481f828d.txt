@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI1VDA5OjI1OjM4LjA1MTAxMiIsInVzZXJfaWQiOiI4NDFjYTY3Zi0xZmJjLTRjZjQtODBiYS04MmIwY2FkMTcxYTgifQ.2Wpnj0E-UvTsSKVMnOYwwJX9QMEkQiysroBydR4mRwY' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Station above loss.","courseId":"9ec6900f-19dd-44c2-a596-dbf5c30a3d3d","maxScore":70,"minScore":20,"orderIndex":1,"description":"Late arm ground surface. Wonder site participant.\nForm action hot mother actually book. Guess his own image rule.\nAttorney hold how job discuss win. Control of then simply door around boy face.","estimatedTime":"10 weeks"}'

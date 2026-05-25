@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI1VDA5OjI1OjM1LjM2ODgzNiIsInVzZXJfaWQiOiJmZTg5MGE0Yy04OGUzLTQ1ODctOGVmMS04NzIzMTBhYjlmYzkifQ.ffp9rGQXXK3daprg-GznkH3bWLEzmzMdX6kyZ0RTrjg' \
+  -H 'content-length: 305' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Focus health scene amount himself.","courseId":"81f88164-421e-4f62-9ae1-6431b4977a51","maxScore":84,"minScore":22,"orderIndex":1,"description":"Return term before carry. Outside political choice.\nExecutive former identify race mean. Trip truth popular that yourself.","estimatedTime":"3 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI1VDA5OjI1OjM3LjQwMzcyOCIsInVzZXJfaWQiOiJlNzk3MGM3YS05MDFiLTQ1NDMtODlmZi1iYWViZTMwZjM3YzYifQ.sJRM_Tsrfi2zfImn08H1pfGqFxV4SOfyHHoL8bq8V4M' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Fire respond give machine rate tree.","maxScore":76,"minScore":13,"description":"Early so town first order any job. Administration game modern show drug plant. People oil final such.","estimatedTime":"8 weeks","previewFileId":"be546ec3-c88e-497e-ae30-e2e7d5d06299","createdByUserId":"e7970c7a-901b-4543-89ff-baebe30f37c6"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI1VDA5OjI1OjM1LjM2ODgzNiIsInVzZXJfaWQiOiJmZTg5MGE0Yy04OGUzLTQ1ODctOGVmMS04NzIzMTBhYjlmYzkifQ.ffp9rGQXXK3daprg-GznkH3bWLEzmzMdX6kyZ0RTrjg' \
+  -H 'content-length: 301' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Store paper travel may by.","maxScore":82,"minScore":9,"description":"Write quite fish. Right investment office learn could month see. Image than safe.","estimatedTime":"9 weeks","previewFileId":"e272d476-0e90-41fe-809a-6c55a8a4f8ec","createdByUserId":"fe890a4c-88e3-4587-8ef1-872310ab9fc9"}'

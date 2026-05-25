@@ -1,0 +1,18 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:94 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'title' equals to Year road new into.
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'max_score' equals to 64
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'min_score' equals to 19
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'description' equals to Quality star turn including sort beat operation begin. Job trial and probably build box dinner. Beautiful enter yard perform condition run.
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'estimated_time' equals to 9 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'preview_file_id' equals to 1c4e2e69-25cc-4e85-90d8-01bc0a7b319d
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'created_by_user_id' equals to e1375e84-344b-4535-b967-37ced04b9875
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema
