@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises/2864fe00-8a5a-4b58-b905-8c0f694fae20
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises/2864fe00-8a5a-4b58-b905-8c0f694fae20
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:76 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:52 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'id' equals to 2864fe00-8a5a-4b58-b905-8c0f694fae20
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'title' equals to Beyond picture from listen coach result hope.
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'course_id' equals to 3dc98c64-4104-4979-801d-d68eb08ab295
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'max_score' equals to 89
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'min_score' equals to 29
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'order_index' equals to 1
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'description' equals to Issue concern region water. Star director impact last.
+Might late step prepare. According back according international then be say. Role cost treat artist. Find course worker represent decade.
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'estimated_time' equals to 8 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

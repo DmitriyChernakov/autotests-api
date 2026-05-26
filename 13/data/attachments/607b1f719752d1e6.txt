@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDA0OjM2OjQ2LjI1NjYxNCIsInVzZXJfaWQiOiJlMjUxYWIzYy1hZTQ1LTRhMjYtOTY0Yi00MmU5ZGY0NzUyYmEifQ.GkclEjhI__otXIMXaTEX5S2DWMikv6lu6nDp2b6dvTo' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Call keep bad several.","maxScore":76,"minScore":30,"description":"Central institution conference sit computer. Enough industry vote.\nLittle list point woman before threat. What determine represent range organization coach them. Reality no bag down with.","estimatedTime":"10 weeks","previewFileId":"ac1f7f27-3764-4455-9ff5-ab26dac76976","createdByUserId":"e251ab3c-ae45-4a26-964b-42e9df4752ba"}'

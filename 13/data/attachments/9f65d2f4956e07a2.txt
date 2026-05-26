@@ -1,0 +1,26 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises?courseId=f12ef8c3-090e-48cc-aa73-572344e75332
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=f12ef8c3-090e-48cc-aa73-572344e75332
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:129 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:74 Check that length of 'exercises' equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:52 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'id' equals to c67259a7-5a4c-44de-bad4-4331912fa153
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'title' equals to Response station child another lot dark.
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'course_id' equals to f12ef8c3-090e-48cc-aa73-572344e75332
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'max_score' equals to 59
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'min_score' equals to 6
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'order_index' equals to 1
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'description' equals to Course sense poor teach believe where hope quality. Source son simple letter. Note its sing purpose everything property.
+Part somebody sell lead.
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'estimated_time' equals to 4 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

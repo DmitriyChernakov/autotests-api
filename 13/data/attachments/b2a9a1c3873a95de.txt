@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDA0OjM2OjQ1LjcwNzI0MCIsInVzZXJfaWQiOiI1NDQ3ZjQ4OS1mZmI3LTQ5MGItODVjYi03MDcyOWQwMzRiNjcifQ.1fMb04MPPV3Y5Wumlh1Nx_e2rG7mVcWLvIpLUqo-zCQ' \
+  -H 'content-length: 333' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Method figure cup bank.","maxScore":80,"minScore":26,"description":"Stage believe fund life. Radio small range.\nSuccess often most store toward simply against.\nHand control debate.","estimatedTime":"10 weeks","previewFileId":"2a6783bc-2aba-4598-955d-d6ea7838b859","createdByUserId":"5447f489-ffb7-490b-85cb-70729d034b67"}'

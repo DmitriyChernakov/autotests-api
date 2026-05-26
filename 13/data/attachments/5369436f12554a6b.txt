@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDA0OjM2OjQ3LjQyNDkxOSIsInVzZXJfaWQiOiJiNmIzZTM3MS02NGZhLTRkOTItYTA2ZS01ZDlhNWRjZmQxYzUifQ.cZ34GLMxmo3BbxfXA8SyFzXTMQ4JvTItzEwZPsQEBiU' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Case their newspaper hour.","courseId":"4ad302cb-f796-42f9-9182-d71159b90a3e","maxScore":98,"minScore":14,"orderIndex":1,"description":"Agree clear common billion. Hear student available whose. Two reason ready civil with cause tend.\nInvestment deal join peace we author. Less bed local attorney. Company movement national air front.","estimatedTime":"1 weeks"}'

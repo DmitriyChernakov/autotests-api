@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDA0OjM2OjQ0LjYwNzU2NyIsInVzZXJfaWQiOiI2NjlhNzk5OC05OGQwLTRiZjAtYTA1YS0xNmE4YjQ1MzgzMjUifQ.Zc4R9a3jfdnpuafoxhb6jrsfSx2n4csb9jozi085O0Y' \
+  -H 'content-length: 308' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Sister box lose ten next maybe fish friend.","maxScore":76,"minScore":14,"description":"Girl name positive thus poor wife simply teach. Check win window seat.","estimatedTime":"8 weeks","previewFileId":"f5c721ff-44e6-4105-8ab7-1833be338274","createdByUserId":"669a7998-98d0-4bf0-a05a-16a8b4538325"}'

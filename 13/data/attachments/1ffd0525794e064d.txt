@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDA0OjM2OjQ4LjAzMDc0OCIsInVzZXJfaWQiOiJlYjgzOGJiNS0wYTVjLTQwYmMtYWIyOC05MDlhZmZlYTY3NWIifQ.pZF3gAUpsDv5e95IxF2t3Y7MWCiUBNh_zZMELIvCoe4' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Current popular record someone.","maxScore":98,"minScore":14,"description":"Trouble include develop. Hair reduce employee top dog subject grow. Age wish whether practice some. Lead day item industry.","estimatedTime":"8 weeks","previewFileId":"ae1502f5-6426-4f49-8d84-aa747bde079e","createdByUserId":"eb838bb5-0a5c-40bc-ab28-909affea675b"}'

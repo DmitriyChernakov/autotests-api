@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDA0OjM2OjQzLjc2MDQxOCIsInVzZXJfaWQiOiI0ODA1MmI2MC0yMDhjLTQ4ZGMtYjA0Yy1kZTNiYWNiZTgyNTMifQ.wONqSoejBxGfgwWvFBWKs6jR0yF9Nm9Xn93ln56rocM' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Western describe question.","maxScore":60,"minScore":29,"description":"He drug window picture. Entire vote yet sing respond clear. Loss peace general too region.\nQuestion sing sport coach until. Yet former green protect happy create. Recently fish itself central wide.","estimatedTime":"2 weeks","previewFileId":"19f8655c-2981-42dd-919c-b4d0a98d913b","createdByUserId":"48052b60-208c-48dc-b04c-de3bacbe8253"}'

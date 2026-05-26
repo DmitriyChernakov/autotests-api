@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDA0OjM2OjQ1LjE2MDE3NSIsInVzZXJfaWQiOiJkZjM1NDYyNi02OWJjLTRjY2QtODUwYS1hZTMwOTk2ZmU4MzcifQ.fckMxUfCz0EBzWiJr2dr6TnMLBaEF1XRt-ADQrQR5Lc' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Design student fine ago picture provide.","maxScore":63,"minScore":22,"description":"Door appear economic there worker.\nNo where hear safe current food. Condition although better fly their. Season operation boy particular husband Democrat among.","estimatedTime":"6 weeks","previewFileId":"0b86af6e-9939-4c5a-b4da-8d70345ff955","createdByUserId":"df354626-69bc-4ccd-850a-ae30996fe837"}'

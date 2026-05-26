@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDA0OjM2OjQ2Ljg1NDI4OCIsInVzZXJfaWQiOiIxZTU5ZjE0NS0yYjQ3LTQ3YmQtYmYwMy1hNjgzNjE5OTA1MTAifQ.nmrDjp3B3l1rFX3pQ9gJFZKiwErlfendeFAjusWdJ3U' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Near reach scientist.","maxScore":74,"minScore":17,"description":"Across close man room page describe laugh throw. Fly several far cold. Simply do everybody shake medical another including.\nLong establish perhaps.","estimatedTime":"6 weeks","previewFileId":"c96ac21b-b5c9-4e6f-b87c-7d96b4635370","createdByUserId":"1e59f145-2b47-47bd-bf03-a68361990510"}'
