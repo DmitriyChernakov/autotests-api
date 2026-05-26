@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDAzOjQ4OjE4LjQzODU0NyIsInVzZXJfaWQiOiIwMzZlZmRiNS04MmUzLTRlYjYtOThiOC0xYzhhYTNhNGZlYmYifQ.dIhJOJP9ObSithBFIK1OxUPAC-ZoxgM2WQB7PWYzKpk' \
+  -H 'content-length: 301' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Bit even view try gun deep few office.","maxScore":59,"minScore":16,"description":"Choose yeah stop goal seven entire. Interesting perform return need.","estimatedTime":"1 weeks","previewFileId":"ad8f58af-6bf6-4baa-aa53-d5907d1a72e1","createdByUserId":"036efdb5-82e3-4eb6-98b8-1c8aa3a4febf"}'

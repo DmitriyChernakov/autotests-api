@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDAzOjQ4OjE4LjQzODU0NyIsInVzZXJfaWQiOiIwMzZlZmRiNS04MmUzLTRlYjYtOThiOC0xYzhhYTNhNGZlYmYifQ.dIhJOJP9ObSithBFIK1OxUPAC-ZoxgM2WQB7PWYzKpk' \
+  -H 'content-length: 312' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Guess nor possible stop.","courseId":"c223cff3-2dba-4eaa-b0b4-0261653ab489","maxScore":97,"minScore":20,"orderIndex":1,"description":"Catch white partner nice loss significant. Anything dream to wear officer indeed amount able. Decade somebody because let meeting walk work.","estimatedTime":"2 weeks"}'

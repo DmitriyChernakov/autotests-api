@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDAzOjQ4OjE2LjUwODU0OSIsInVzZXJfaWQiOiJjNGNhZmNjOC0xYzIyLTQ4YmQtYWQ0My00YTkyOTE1MDkwM2YifQ.-Ub79PON0E1G3OK90U4_xCCA_b4mZGXzi1n6TwxBxj4' \
+  -H 'content-length: 287' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Majority middle impact.","maxScore":74,"minScore":15,"description":"By war do across well just meet. West share meet support last worker.","estimatedTime":"1 weeks","previewFileId":"2f1825e0-0c34-4084-9770-288944d3f3e8","createdByUserId":"c4cafcc8-1c22-48bd-ad43-4a929150903f"}'

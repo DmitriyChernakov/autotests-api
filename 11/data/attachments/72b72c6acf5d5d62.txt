@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDAzOjQ4OjEzLjY0MDg2NyIsInVzZXJfaWQiOiJmZDI3ZjkxOC0xYWUwLTRjYWEtYjgxOC1iZjM3ZGUyYTA5MGYifQ.DP0GEjaPfVyvfq2TJms6LVz2hs7SWrs3ilViabWyZgc' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Treatment success lay where approach.","maxScore":93,"minScore":13,"description":"Stand resource could should. Old little dream school whose list around. Tonight again see beat business country difficult less.\nAbove girl current lead cultural speech particular artist.","estimatedTime":"7 weeks","previewFileId":"a8d658bc-d515-4eed-98f1-d33ced7a7daa","createdByUserId":"fd27f918-1ae0-4caa-b818-bf37de2a090f"}'

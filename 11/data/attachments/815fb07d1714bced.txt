@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDAzOjQ4OjE0LjUzNDkyOSIsInVzZXJfaWQiOiIzZWEzYmFmYy1jMmQyLTQ4MjEtYmEzZi00YWJkNTMzZTc3NzAifQ.MuTSjbxdVjGMyjFUrgmnUPGe13xbVIbEPlr5pn3SHLU' \
+  -H 'content-length: 434' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Concern black light social manage discover ask.","maxScore":82,"minScore":9,"description":"Gun task hotel voice. Edge sister subject look. Spring seat significant environment stay piece.\nRise a example near painting lose. Account save reach herself feeling. Republican under middle.","estimatedTime":"10 weeks","previewFileId":"01ef4226-5294-4f1c-9f0f-ed64bc386c12","createdByUserId":"3ea3bafc-c2d2-4821-ba3f-4abd533e7770"}'
