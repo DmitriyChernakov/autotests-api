@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDA0OjE1OjAxLjAzMzUxMiIsInVzZXJfaWQiOiI1MDdiY2EyMi1jNjNkLTQxYzEtODUzNS02Mjg0NTkyMDRlMTEifQ.3OStSUlt9BtOemw_CpR9N5YE9VJrjFC_PFgJnSNsy6k' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Draw start husband woman knowledge.","maxScore":76,"minScore":24,"description":"Scientist with least career raise lose wrong. Full air camera suggest tree actually. Call issue research or new may hold trip.","estimatedTime":"3 weeks","previewFileId":"e11dc62a-4c24-4cf9-99fa-e622edea3190","createdByUserId":"507bca22-c63d-41c1-8535-628459204e11"}'

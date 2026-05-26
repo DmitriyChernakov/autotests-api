@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDA0OjE0OjU4LjYxMjg5MCIsInVzZXJfaWQiOiJkZGNjYTUzMy0wODM3LTQ4YTctYjUwZi1kYjgzOWZkMzhjMTQifQ.KxTqbjRSzAiZsCvg6BGhJn7ldkGV3mfmD97B9ZDPTNk' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -f '{"title":"New poor discuss work.","maxScore":98,"minScore":8,"description":"Begin grow quite star option quality produce month. Provide nearly how feel speak common.\nFirst really herself true report. These suggest sure until.","estimatedTime":"5 weeks","previewFileId":"3446ed49-6d9f-486c-96e2-f2330f7c0ca7","createdByUserId":"ddcca533-0837-48a7-b50f-db839fd38c14"}'

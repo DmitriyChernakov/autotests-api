@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDA0OjE1OjAxLjY3NTAxMSIsInVzZXJfaWQiOiIzZmNmMDFjNi1iNjVkLTQyMTgtOTY0ZS03OGI3OTU1NjJkODAifQ.YMxPBI9v5iU6tbLCxmm077c40KRZ03gfHt6_LR9U6WI' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Process ready sing security.","maxScore":72,"minScore":27,"description":"School behavior address feeling list. Suggest animal person south yourself its. Seek anything production old box into.\nWorld role fill represent direction produce gun.","estimatedTime":"5 weeks","previewFileId":"727e6cc4-6d7c-46a0-b6f6-78e13fe6a264","createdByUserId":"3fcf01c6-b65d-4218-964e-78b795562d80"}'

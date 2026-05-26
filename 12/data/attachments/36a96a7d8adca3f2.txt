@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Make PATCH request to http://localhost:8000/api/v1/courses/e81b5a3a-0680-4ce3-aa4e-0e0ea64a1cea
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses/e81b5a3a-0680-4ce3-aa4e-0e0ea64a1cea
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:31 Check update course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'title' equals to Human once nor drug seat.
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'max_score' equals to 62
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'min_score' equals to 13
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'description' equals to Firm expert only language her. News party environment. Perform station south guess investment important.
+Democratic we defense hundred reflect fact food.
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'estimated_time' equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

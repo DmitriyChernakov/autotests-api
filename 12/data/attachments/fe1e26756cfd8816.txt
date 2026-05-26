@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDA0OjE1OjAwLjQxMzQxNyIsInVzZXJfaWQiOiJhMDU4Nzc5Mi03ODI3LTQxYzUtODExMC01ZWRiMGI0NTVjZTYifQ.WCrsk0ZGtkLPNf26oaioLGqNfK8aopB-8zl7Crs7dOA' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Anything culture west above coach fall dog later.","courseId":"a3706180-6c63-40b3-8c6c-d40d08e8f944","maxScore":52,"minScore":28,"orderIndex":1,"description":"Far expert management very father. Break expect central necessary approach.\nCold hundred here accept attention. Himself society central guess.","estimatedTime":"1 weeks"}'

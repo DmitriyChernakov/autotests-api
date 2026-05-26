@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDA0OjE0OjU5LjE5NzkwOSIsInVzZXJfaWQiOiJmNWNkOGI5YS1jMWRiLTRkYWEtYjE2OS04NTMwN2QwZTIzZDcifQ.Kz9w-RSuYPkeXZZbtSMdRVSznTj78mjNwniNP7wotRM' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Market trip store deep enter often.","courseId":"5b69466f-317d-46d1-9166-94bab9b88016","maxScore":96,"minScore":12,"orderIndex":1,"description":"Poor image large action gas respond. Will woman personal hundred color place answer. Tell course put foot leave last.","estimatedTime":"4 weeks"}'

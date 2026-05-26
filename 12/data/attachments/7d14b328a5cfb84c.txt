@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDA0OjE1OjAwLjQxMzQxNyIsInVzZXJfaWQiOiJhMDU4Nzc5Mi03ODI3LTQxYzUtODExMC01ZWRiMGI0NTVjZTYifQ.WCrsk0ZGtkLPNf26oaioLGqNfK8aopB-8zl7Crs7dOA' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Word near pick federal available stuff friend.","maxScore":89,"minScore":3,"description":"Industry although voice gun goal so though determine. Around top big over guess note. Every game year fast owner. Rise most page institution.","estimatedTime":"6 weeks","previewFileId":"1fd2f748-9fc2-4c8b-a24e-f6699d98a686","createdByUserId":"a0587792-7827-41c5-8110-5edb0b455ce6"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDA0OjE0OjU3Ljk2NjMwNSIsInVzZXJfaWQiOiIwODU5MjFmMC04ZWZjLTRlMGYtODdiZS03OTU1OWE4OTQxYzUifQ.jCdQ57SxnIq0JSMIE10BXUNDgoOptdo4MG5j7DhR3Hk' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Set military by because part energy discover.","maxScore":95,"minScore":13,"description":"Perform admit as heart. Group its small performance. Various fear attorney enjoy policy pick to. Music impact program finish.","estimatedTime":"7 weeks","previewFileId":"2d648730-070d-47e4-b0f2-025b1fe209af","createdByUserId":"085921f0-8efc-4e0f-87be-79559a8941c5"}'

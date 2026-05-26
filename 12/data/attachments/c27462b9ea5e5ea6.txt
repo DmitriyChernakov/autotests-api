@@ -1,0 +1,20 @@
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:32 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'title' equals to Market trip store deep enter often.
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'max_score' equals to 96
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'min_score' equals to 12
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'order_index' equals to 1
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'description' equals to Poor image large action gas respond. Will woman personal hundred color place answer. Tell course put foot leave last.
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'estimated_time' equals to 4 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'course_id' equals to 5b69466f-317d-46d1-9166-94bab9b88016
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

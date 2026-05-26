@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDA0OjE0OjU5Ljc3NjQ1OCIsInVzZXJfaWQiOiJlOTMzODdjNC02Y2JkLTQyYWYtODY5ZS1mM2I4M2E2NjI0ODEifQ.tkue49bonL3UnIcY35xzYkBdjHqIfvRtlIUvJPqU0Bw' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Watch kitchen quality half.","maxScore":74,"minScore":9,"description":"Open reach everything fight suddenly responsibility. Wonder information college simply series officer enjoy. Push keep stuff water blood pull.","estimatedTime":"6 weeks","previewFileId":"680522d8-eefc-4854-b56f-35c893842e2d","createdByUserId":"e93387c4-6cbd-42af-869e-f3b83a662481"}'

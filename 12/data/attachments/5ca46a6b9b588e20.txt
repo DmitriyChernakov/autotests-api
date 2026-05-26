@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI2VDA0OjE1OjAxLjAzMzUxMiIsInVzZXJfaWQiOiI1MDdiY2EyMi1jNjNkLTQxYzEtODUzNS02Mjg0NTkyMDRlMTEifQ.3OStSUlt9BtOemw_CpR9N5YE9VJrjFC_PFgJnSNsy6k' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -f '{"title":"Skin success middle color rather.","courseId":"f7ec0288-eb28-462c-94e2-f23083ff1dc2","maxScore":75,"minScore":30,"orderIndex":1,"description":"Painting career difference soon trouble task black. Recognize civil point suggest society final economic. Lot front country.\nStandard born method red wall most. Its work anyone.","estimatedTime":"7 weeks"}'
