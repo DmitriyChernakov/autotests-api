@@ -46,15 +46,14 @@
 ### 1. Клонировать репозиторий
 
 ```bash
-git clone https://github.com/DmitriyChernakov/autotests-ui.git
-cd autotests-ui
+git clone https://github.com/DmitriyChernakov/autotests-api.git
+cd autotests-api
 ```
 
 ### 2. Установить зависимости
 
 ```bash
 pip install -r requirements.txt
-playwright install --with-deps
 ```
 
 ### 3. Запустить API
